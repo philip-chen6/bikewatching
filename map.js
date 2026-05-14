@@ -1,9 +1,12 @@
 import mapboxgl from "https://cdn.jsdelivr.net/npm/mapbox-gl@2.15.0/+esm";
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7.9.0/+esm";
 
-const MAPBOX_ACCESS_TOKEN = "PASTE_YOUR_MAPBOX_PUBLIC_TOKEN_HERE";
-const STATIONS_URL = "https://dsc106.com/labs/lab07/data/bluebikes-stations.json";
-const TRAFFIC_URL = "https://dsc106.com/labs/lab07/data/bluebikes-traffic-2024-03.csv";
+const MAPBOX_ACCESS_TOKEN =
+  "pk.eyJ1IjoiZmxlZXBlIiwiYSI6ImNtcDVxZWFidzEzOWIyc3E4cGI5Z2k2cXIifQ.fHCwefhuzKmVja1xHg_kHw";
+const STATIONS_URL =
+  "https://dsc106.com/labs/lab07/data/bluebikes-stations.json";
+const TRAFFIC_URL =
+  "https://dsc106.com/labs/lab07/data/bluebikes-traffic-2024-03.csv";
 const BOSTON_BIKE_LANES_URL =
   "https://bostonopendata-boston.opendata.arcgis.com/datasets/boston::existing-bike-network-2022.geojson";
 const CAMBRIDGE_BIKE_LANES_URL =
